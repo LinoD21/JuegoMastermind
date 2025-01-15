@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background_alien">
+
+    <TextView
+        android:id="@+id/selectGameMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione el modo de juego"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonAutomatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Automático"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonManual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manual"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Adiviname" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Sin colores personalizados, usando predeterminados del sistema -->
+    </style>
+
+    <style name="Theme.Adiviname.NoActionBar" parent="Theme.Adiviname">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
