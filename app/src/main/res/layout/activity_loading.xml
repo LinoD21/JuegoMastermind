@@ -1,40 +1,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="16dp"
-    android:background="@drawable/background_alien">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:padding="16dp"
+              android:background="@drawable/background_alien">
 
-    <TextView
-        android:id="@+id/instructions"
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Instrucciones de Juego:  \n\n AUTOMATICO: \n 1. El sistema seleccionará un número de 4 dígitos al azar.\n2. El numero no contiene 0 ni numeros repetidos. \n 3. Si aciertas un numero o una ubicacion el juego te lo dira \n 4. ¡Adivina el número secreto! \n \n MANUAL: \n 1. Un jugadr debera ingresar un número de 4 dígitos.\n2. Asegúrate de que no contiene 0 ni dígitos repetidos.\n3. Si aciertas un numero o una ubicacion el juego te lo dira \n 4. ¡Adivina el número secreto!"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:indeterminate="true"/>
 
-    <Button
-        android:id="@+id/startButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Empezar"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#9C27B0"
-        android:visibility="gone"
-        android:layout_marginTop="16dp"/>
-
-    <TextView
-        android:id="@+id/versionJuego"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Versión: 1.0"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="#000000"/>
 </LinearLayout>
