@@ -52,15 +52,15 @@
             android:layout_height="wrap_content">
             <GridLayout
             android:id="@+id/numbersGrid"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
             android:columnCount="3"
             android:rowCount="3"
-            android:id="@+id/numbersGrid"
             >
-            <com.google.android.material.button.MaterialButton android:id="@+id/num1" style="@style/Widget.Material3.Button"  android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="4dp" android:text="1" android:textSize="20sp" android:textStyle="bold" android:textColor="#FFFFFF" android:backgroundTint="#9C27B0" app:cornerRadius="10dp" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/num1" style="@style/Widget.Material3.Button" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="4dp" android:text="1" android:textSize="20sp" android:textStyle="bold" android:textColor="#FFFFFF" android:backgroundTint="#9C27B0" app:cornerRadius="10dp" />
             <com.google.android.material.button.MaterialButton android:id="@+id/num2" style="@style/Widget.Material3.Button" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="4dp" android:text="2" android:textSize="20sp" android:textStyle="bold" android:textColor="#FFFFFF" android:backgroundTint="#9C27B0" app:cornerRadius="10dp" />
             <com.google.android.material.button.MaterialButton android:id="@+id/num3" style="@style/Widget.Material3.Button" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="4dp" android:text="3" android:textSize="20sp" android:textStyle="bold" android:textColor="#FFFFFF" android:backgroundTint="#9C27B0" app:cornerRadius="10dp" />
             <com.google.android.material.button.MaterialButton android:id="@+id/num4" style="@style/Widget.Material3.Button" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="4dp" android:text="4" android:textSize="20sp" android:textStyle="bold" android:textColor="#FFFFFF" android:backgroundTint="#9C27B0" app:cornerRadius="10dp" />
