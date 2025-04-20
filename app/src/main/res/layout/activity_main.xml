@@ -1,4 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -43,6 +44,83 @@
 
     <LinearLayout
         android:id="@+id/numerosInteractivos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+      <GridLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:columnCount="3"
+          android:rowCount="3">
+
+        <TextView android:id="@+id/num1" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="1.5dp" android:background="#9C27B0" android:gravity="center" android:text="1" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/num2" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="1.5dp" android:background="#9C27B0" android:gravity="center" android:text="2" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/num3" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="1.5dp" android:background="#9C27B0" android:gravity="center" android:text="3" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/num4" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="1.5dp" android:background="#9C27B0" android:gravity="center" android:text="4" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/num5" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="1.5dp" android:background="#9C27B0" android:gravity="center" android:text="5" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/num6" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="1.5dp" android:background="#9C27B0" android:gravity="center" android:text="6" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/num7" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="1.5dp" android:background="#9C27B0" android:gravity="center" android:text="7" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/num8" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="1.5dp" android:background="#9C27B0" android:gravity="center" android:text="8" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/num9" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="1.5dp" android:background="#9C27B0" android:gravity="center" android:text="9" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+      </GridLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:visibility="gone"
+        android:text="Adivinar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Adivinar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/historialScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:id="@+id/historialLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@android:color/transparent"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/nuevaPartidaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nueva Partida"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal|bottom"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Números"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal|bottom"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
