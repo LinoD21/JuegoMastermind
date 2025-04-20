@@ -19,9 +19,9 @@ class GameModeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.game_mode_activity)
 
-        instructionsTextView = findViewById(R.id.gameModeInstructions)
-        startButton = findViewById(R.id.startGameButton)
-        backButton = findViewById(R.id.backButton)
+        instructionsTextView = findViewById(R.id.instructions)
+        startButton = findViewById(R.id.startGame)
+        backButton = findViewById(R.id.backToSelection)
         automaticButton = findViewById(R.id.buttonAutomatic)
         manualButton = findViewById(R.id.buttonManual)
         
