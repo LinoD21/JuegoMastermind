@@ -3,13 +3,30 @@
               android:layout_height="match_parent"
               android:orientation="vertical"
               android:gravity="center"
+              android:layout_gravity="center"
               android:padding="16dp"
               android:background="@drawable/background_alien">
 
-    <ProgressBar
-        android:id="@+id/loadingProgressBar"
+    <TextView
+        android:id="@+id/welcomeMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:indeterminate="true"/>
+        android:text="Bienvenido a Mastermind!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+
+    <TextView
+        android:id="@+id/loadingInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="" />
 
 </LinearLayout>
